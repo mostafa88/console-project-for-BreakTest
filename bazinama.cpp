@@ -16,7 +16,6 @@ void bazinama::testCrash()
 	int c = 12;
 	int a = b - c;
 	printf("%d",1/a);
-// 	int a = 0;
-// 	printf("%d",1/a);
+	//delete reinterpret_cast<QString*>(0xFEE1DEAD);
 }
 

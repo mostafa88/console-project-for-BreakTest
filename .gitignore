@@ -1,0 +1,20 @@
+# you can find a tutorial of .gitignore file here
+# https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
+
+# following files are ignored in git repository
+
+debug/*
+release/*
+client/*
+common/*
+google_breakpad/*
+win32/*
+DoctorDumpSDK/*
+Makefile*
+
+*.autosave
+
+GeneratedFiles/*
+.vs/*
+
+# Setup project ignore files
